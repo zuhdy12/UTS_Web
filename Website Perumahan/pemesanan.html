@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noir Salon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="landing_page.html">Home</a></li>
+                <li><a href="pemesanan.html">Pemesanan</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="login.html">Login</a></li>
+            
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <div class="info-text">
+            Silahkan mengisi form untuk pemesanan.
+        </div>
+        <form action="#" method="POST">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+            <label for="noHp">No. Telepon:</label>
+            <input type="text" id="noHp" name="noHP" required>
+
+            <label for="tipe">Pilih Tipe:</label>
+            <select id="tipe" name="tipe">
+                <option value="tipe1">21/24</option>
+                <option value="tipe2">36</option>
+                <option value="tipe3">45</option>
+                <option value="tipe4">54</option>
+                <option value="tipe5">60</option>
+                <option value="tipe6">70</option>
+                <option value="tipe7">90</option>
+            </select>
+
+            <label for="tanggal">Pilih Tanggal:</label>
+            <input type="date" id="tanggal" name="tanggal" required>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 Satu Sembilan Residence. All rights reserved.</p>
+    </footer>
+</body>
+</html>
