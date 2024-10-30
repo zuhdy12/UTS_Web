@@ -203,7 +203,7 @@
   
   /* Footer styles */
   footer {
-    background: linear-gradient(90deg, #9ce9af, #2b8b39); /* Gradasi emas ke coklat */
+    background: linear-gradient(90deg, #9ce9af, #2b8b39); 
     color: #fff;
     padding: 20px;
     text-align: center;
